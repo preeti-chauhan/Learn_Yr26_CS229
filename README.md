@@ -91,7 +91,8 @@ CS229 divides into five blocks:
 | **Neural Networks** | L07–L08 | Architecture → backpropagation — the engine of modern ML |
 | **Unsupervised Learning** | L09–L10 | K-Means · GMM · EM algorithm · PCA |
 | **Generative + Representation** | L11–L12 | Diffusion models · representation learning · self-supervised learning |
-| **Language + RL** | L13–L15 | LLMs · Transformers · reinforcement learning · policy gradient |
+| **Language + RL** | L13–L16 | LLMs · Transformers · reinforcement learning · policy gradient |
+| **EM / PCA Deep Dive** | L18, L20 | GMM EM algorithm · PCA — extended treatment |
 
 ---
 
@@ -102,7 +103,7 @@ CS229 divides into five blocks:
 | L01 | Introduction | [▶](https://www.youtube.com/watch?v=DATnpGoGhM8) | [notes](LectureNotes/L01-introduction.md) | [notebook](Source-Notebooks/L01-Introduction.ipynb) |
 | L02 | Supervised Learning Setup | [▶](https://www.youtube.com/watch?v=cmNIMjPYdgM) | [notes](LectureNotes/L02-supervised-learning.md) | [notebook](Source-Notebooks/L02-SupervisedLearning.ipynb) |
 | L03 | Weighted Least Squares | [▶](https://www.youtube.com/watch?v=uJF_gL3jhxI) | [notes](LectureNotes/L03-weighted-least-squares.md) | [notebook](Source-Notebooks/L03-WeightedLeastSquares.ipynb) |
-| L04 | Exponential Family, GLMs | [▶](https://www.youtube.com/watch?v=8gVi4Rk21Eg) | [notes](LectureNotes/L04-glm.md) | [notebook](Source-Notebooks/L04-GLM.ipynb) |
+| L04 | Exponential Family, GLMs Classification | [▶](https://www.youtube.com/watch?v=8gVi4Rk21Eg) | [notes](LectureNotes/L04-glm.md) | [notebook](Source-Notebooks/L04-GLM.ipynb) |
 | L05 | Gaussian Discriminant Analysis | [▶](https://www.youtube.com/watch?v=zRdE8A4UZes) | [notes](LectureNotes/L05-gda.md) | [notebook](Source-Notebooks/L05-GDA.ipynb) |
 | L06 | Dataset Split, ML Advice | [▶](https://www.youtube.com/watch?v=llnEgyyuYkQ) | [notes](LectureNotes/L06-ml-advice.md) | [notebook](Source-Notebooks/L06-MLAdvice.ipynb) |
 | L07 | Neural Networks 1 — Architecture | [▶](https://www.youtube.com/watch?v=fRM41w9jzQo) | [notes](LectureNotes/L07-nn-architecture.md) | [notebook](Source-Notebooks/L07-NeuralNetworks-Architecture.ipynb) |
@@ -113,9 +114,12 @@ CS229 divides into five blocks:
 | L12 | Representation Learning | [▶](https://www.youtube.com/watch?v=_kREM2UAiJ8) | [notes](LectureNotes/L12-representation-learning.md) | [notebook](Source-Notebooks/L12-RepresentationLearning.ipynb) |
 | L13 | LLMs, Next-Word Prediction Loss | [▶](https://www.youtube.com/watch?v=lNTajqxxOn4) | [notes](LectureNotes/L13-llms.md) | [notebook](Source-Notebooks/L13-LLMs.ipynb) |
 | L14 | Transformers, In-Context Learning | [▶](https://www.youtube.com/watch?v=pwQ0l4hFCVI) | [notes](LectureNotes/L14-transformers.md) | [notebook](Source-Notebooks/L14-Transformers.ipynb) |
-| L15 | Reinforcement Learning, Policy Gradient | [▶](https://www.youtube.com/watch?v=hHC-SF3utxg) | [notes](LectureNotes/L15-rl.md) | [notebook](Source-Notebooks/L15-RL.ipynb) |
-| L16 | GMM (EM), PCA — continued | [▶](https://www.youtube.com/watch?v=xveNBYVTrqw) | [notes](LectureNotes/L16-em-pca-2.md) | — |
-| L17 | GMM (EM), PCA — continued | [▶](https://www.youtube.com/watch?v=J7CossjMvEg) | [notes](LectureNotes/L17-em-pca-3.md) | — |
+| L15 | *(not on YouTube)* | — | — | — |
+| L16 | Basic Concepts in RL, Policy Gradient | [▶](https://www.youtube.com/watch?v=hHC-SF3utxg) | [notes](LectureNotes/L16-rl.md) | [notebook](Source-Notebooks/L16-RL.ipynb) |
+| L17 | *(not on YouTube)* | — | — | — |
+| L18 | GMM (EM), PCA — continued | [▶](https://www.youtube.com/watch?v=xveNBYVTrqw) | [notes](LectureNotes/L18-em-pca-2.md) | — |
+| L19 | *(not on YouTube)* | — | — | — |
+| L20 | GMM (EM), PCA — continued | [▶](https://www.youtube.com/watch?v=J7CossjMvEg) | [notes](LectureNotes/L20-em-pca-3.md) | — |
 
 ---
 
@@ -144,7 +148,7 @@ Each notebook is a one-stop learning and teaching guide for that lecture:
 | L12 | Representation Learning | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/preeti-chauhan/Learn_Yr26_CS229/blob/main/Source-Notebooks/L12-RepresentationLearning.ipynb) |
 | L13 | LLMs, Next-Word Prediction | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/preeti-chauhan/Learn_Yr26_CS229/blob/main/Source-Notebooks/L13-LLMs.ipynb) |
 | L14 | Transformers, In-Context Learning | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/preeti-chauhan/Learn_Yr26_CS229/blob/main/Source-Notebooks/L14-Transformers.ipynb) |
-| L15 | Reinforcement Learning | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/preeti-chauhan/Learn_Yr26_CS229/blob/main/Source-Notebooks/L15-RL.ipynb) |
+| L16 | Basic Concepts in RL, Policy Gradient | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/preeti-chauhan/Learn_Yr26_CS229/blob/main/Source-Notebooks/L16-RL.ipynb) |
 
 ---
 
@@ -298,7 +302,7 @@ Check off as you complete each topic.
 - [ ] In-context learning: few-shot prompting as implicit Bayesian inference
 - [ ] KV cache — why it matters for inference efficiency
 
-**L15 — Reinforcement Learning, Policy Gradient**
+**L16 — Basic Concepts in RL, Policy Gradient**
 
 - [ ] MDP: `(S, A, P, R, γ)` — state, action, transition, reward, discount
 - [ ] Policy `π(a|s)` · value function `V^π(s)` · Q-function `Q^π(s,a)`
@@ -306,6 +310,24 @@ Check off as you complete each topic.
 - [ ] REINFORCE algorithm
 - [ ] Baseline subtraction to reduce variance
 - [ ] Connection to RLHF: reward model + policy gradient = alignment
+
+---
+
+### Block 6: EM / PCA Deep Dive
+
+**L18 — GMM (EM), PCA — continued**
+
+- [ ] EM algorithm: convergence proof, ELBO bound tightening
+- [ ] GMM parameter updates: responsibilities, μ, Σ, π M-step derivations
+- [ ] PCA: maximum variance direction = first eigenvector of XᵀX
+- [ ] Whitening and ZCA preprocessing
+
+**L20 — GMM (EM), PCA — continued**
+
+- [ ] PCA via SVD: `X = UΣVᵀ` — principal components as right singular vectors
+- [ ] Choosing k: scree plot, explained variance ratio
+- [ ] Kernel PCA — nonlinear dimensionality reduction
+- [ ] Factor analysis vs PCA — latent variable interpretation
 
 ---
 
