@@ -98,28 +98,28 @@ CS229 divides into five blocks:
 
 ## Lectures
 
-| # | Title | YouTube | Notes | Notebook |
-|---|---|---|---|---|
-| L01 | Introduction | [▶](https://www.youtube.com/watch?v=DATnpGoGhM8) | [notes](LectureNotes/L01-introduction.md) | [notebook](Source-Notebooks/L01-Introduction.ipynb) |
-| L02 | Supervised Learning Setup | [▶](https://www.youtube.com/watch?v=cmNIMjPYdgM) | [notes](LectureNotes/L02-supervised-learning.md) | [notebook](Source-Notebooks/L02-SupervisedLearning.ipynb) |
-| L03 | Weighted Least Squares | [▶](https://www.youtube.com/watch?v=uJF_gL3jhxI) | [notes](LectureNotes/L03-weighted-least-squares.md) | [notebook](Source-Notebooks/L03-WeightedLeastSquares.ipynb) |
-| L04 | Exponential Family, GLMs Classification | [▶](https://www.youtube.com/watch?v=8gVi4Rk21Eg) | [notes](LectureNotes/L04-glm.md) | [notebook](Source-Notebooks/L04-GLM.ipynb) |
-| L05 | Gaussian Discriminant Analysis | [▶](https://www.youtube.com/watch?v=zRdE8A4UZes) | [notes](LectureNotes/L05-gda.md) | [notebook](Source-Notebooks/L05-GDA.ipynb) |
-| L06 | Dataset Split, ML Advice | [▶](https://www.youtube.com/watch?v=llnEgyyuYkQ) | [notes](LectureNotes/L06-ml-advice.md) | [notebook](Source-Notebooks/L06-MLAdvice.ipynb) |
-| L07 | Neural Networks 1 — Architecture | [▶](https://www.youtube.com/watch?v=fRM41w9jzQo) | [notes](LectureNotes/L07-nn-architecture.md) | [notebook](Source-Notebooks/L07-NeuralNetworks-Architecture.ipynb) |
-| L08 | Neural Networks 2 — Backprop | [▶](https://www.youtube.com/watch?v=ne2ngVAoMG8) | [notes](LectureNotes/L08-nn-backprop.md) | [notebook](Source-Notebooks/L08-NeuralNetworks-Backprop.ipynb) |
-| L09 | K-Means and GMM | [▶](https://www.youtube.com/watch?v=bSmIGBCoffA) | [notes](LectureNotes/L09-kmeans-gmm.md) | [notebook](Source-Notebooks/L09-KMeans-GMM.ipynb) |
-| L10 | GMM (EM), PCA | [▶](https://www.youtube.com/watch?v=sUS-eTa0l6s) | [notes](LectureNotes/L10-em-pca.md) | [notebook](Source-Notebooks/L10-EM-PCA.ipynb) |
-| L11 | Diffusion Models | [▶](https://www.youtube.com/watch?v=dqUMCzWjZSI) | [notes](LectureNotes/L11-diffusion.md) | [notebook](Source-Notebooks/L11-DiffusionModels.ipynb) |
-| L12 | Representation Learning | [▶](https://www.youtube.com/watch?v=_kREM2UAiJ8) | [notes](LectureNotes/L12-representation-learning.md) | [notebook](Source-Notebooks/L12-RepresentationLearning.ipynb) |
-| L13 | LLMs, Next-Word Prediction Loss | [▶](https://www.youtube.com/watch?v=lNTajqxxOn4) | [notes](LectureNotes/L13-llms.md) | [notebook](Source-Notebooks/L13-LLMs.ipynb) |
-| L14 | Transformers, In-Context Learning | [▶](https://www.youtube.com/watch?v=pwQ0l4hFCVI) | [notes](LectureNotes/L14-transformers.md) | [notebook](Source-Notebooks/L14-Transformers.ipynb) |
-| L15 | *(not on YouTube)* | — | — | — |
-| L16 | Basic Concepts in RL, Policy Gradient | [▶](https://www.youtube.com/watch?v=hHC-SF3utxg) | [notes](LectureNotes/L16-rl.md) | [notebook](Source-Notebooks/L16-RL.ipynb) |
-| L17 | *(not on YouTube)* | — | — | — |
-| L18 | GMM (EM), PCA — continued | [▶](https://www.youtube.com/watch?v=xveNBYVTrqw) | [notes](LectureNotes/L18-em-pca-2.md) | — |
-| L19 | *(not on YouTube)* | — | — | — |
-| L20 | GMM (EM), PCA — continued | [▶](https://www.youtube.com/watch?v=J7CossjMvEg) | [notes](LectureNotes/L20-em-pca-3.md) | — |
+| # | Title | YouTube | Notebook |
+|---|---|---|---|
+| L01 | Introduction | [▶](https://www.youtube.com/watch?v=DATnpGoGhM8) | [notebook](Source-Notebooks/L01-Introduction.ipynb) |
+| L02 | Supervised Learning Setup | [▶](https://www.youtube.com/watch?v=cmNIMjPYdgM) | [notebook](Source-Notebooks/L02-SupervisedLearning.ipynb) |
+| L03 | Weighted Least Squares | [▶](https://www.youtube.com/watch?v=uJF_gL3jhxI) | [notebook](Source-Notebooks/L03-WeightedLeastSquares.ipynb) |
+| L04 | Exponential Family, GLMs Classification | [▶](https://www.youtube.com/watch?v=8gVi4Rk21Eg) | [notebook](Source-Notebooks/L04-GLM.ipynb) |
+| L05 | Gaussian Discriminant Analysis | [▶](https://www.youtube.com/watch?v=zRdE8A4UZes) | [notebook](Source-Notebooks/L05-GDA.ipynb) |
+| L06 | Dataset Split, ML Advice | [▶](https://www.youtube.com/watch?v=llnEgyyuYkQ) | [notebook](Source-Notebooks/L06-MLAdvice.ipynb) |
+| L07 | Neural Networks 1 — Architecture | [▶](https://www.youtube.com/watch?v=fRM41w9jzQo) | [notebook](Source-Notebooks/L07-NeuralNetworks-Architecture.ipynb) |
+| L08 | Neural Networks 2 — Backprop | [▶](https://www.youtube.com/watch?v=ne2ngVAoMG8) | [notebook](Source-Notebooks/L08-NeuralNetworks-Backprop.ipynb) |
+| L09 | K-Means and GMM | [▶](https://www.youtube.com/watch?v=bSmIGBCoffA) | [notebook](Source-Notebooks/L09-KMeans-GMM.ipynb) |
+| L10 | GMM (EM), PCA | [▶](https://www.youtube.com/watch?v=sUS-eTa0l6s) | [notebook](Source-Notebooks/L10-EM-PCA.ipynb) |
+| L11 | Diffusion Models | [▶](https://www.youtube.com/watch?v=dqUMCzWjZSI) | [notebook](Source-Notebooks/L11-DiffusionModels.ipynb) |
+| L12 | Representation Learning | [▶](https://www.youtube.com/watch?v=_kREM2UAiJ8) | [notebook](Source-Notebooks/L12-RepresentationLearning.ipynb) |
+| L13 | LLMs, Next-Word Prediction Loss | [▶](https://www.youtube.com/watch?v=lNTajqxxOn4) | [notebook](Source-Notebooks/L13-LLMs.ipynb) |
+| L14 | Transformers, In-Context Learning | [▶](https://www.youtube.com/watch?v=pwQ0l4hFCVI) | [notebook](Source-Notebooks/L14-Transformers.ipynb) |
+| L15 | *(not on YouTube)* | — | — |
+| L16 | Basic Concepts in RL, Policy Gradient | [▶](https://www.youtube.com/watch?v=hHC-SF3utxg) | [notebook](Source-Notebooks/L16-RL.ipynb) |
+| L17 | *(not on YouTube)* | — | — |
+| L18 | GMM (EM), PCA — continued | [▶](https://www.youtube.com/watch?v=xveNBYVTrqw) | — |
+| L19 | *(not on YouTube)* | — | — |
+| L20 | GMM (EM), PCA — continued | [▶](https://www.youtube.com/watch?v=J7CossjMvEg) | — |
 
 ---
 
