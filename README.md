@@ -20,6 +20,67 @@ The 2026 edition is meaningfully different from older CS229. It has dropped SVMs
 
 ---
 
+## Concept Map
+
+```
+CS229
+│
+├── THE FRAMEWORK (cuts across everything)
+│   ├── ERM — minimize loss over training data
+│   ├── MLE — choose θ to maximize P(data | θ)
+│   └── Loss = -log likelihood → squared, cross-entropy, etc.
+│
+├── SUPERVISED LEARNING
+│   │
+│   ├── Linear Models
+│   │   ├── Linear Regression       → Gaussian noise → squared loss    [L02]
+│   │   ├── Logistic Regression     → Bernoulli → cross-entropy         [L03]
+│   │   └── GLMs / Exp. Family      → generalizes both of the above     [L04]
+│   │
+│   ├── Neural Networks
+│   │   ├── Architecture            → layers, activations, depth        [L07]
+│   │   ├── Backpropagation         → chain rule at scale               [L08]
+│   │   └── Training tricks         → dropout, batch norm, regularize   [L06]
+│   │
+│   └── Optimization
+│       ├── Gradient Descent        → batch, full data                  [L02]
+│       ├── SGD / Mini-batch        → workhorse of ML                   [L02]
+│       ├── Normal Equations        → closed form, small data only      [L02]
+│       └── Newton's Method         → second order, classical stats     [L03]
+│
+├── UNSUPERVISED LEARNING
+│   ├── K-Means                     → cluster by distance               [L09]
+│   ├── GMM + EM Algorithm          → soft clusters, probabilistic      [L09-10]
+│   └── PCA                         → dimensionality reduction          [L10]
+│
+├── GENERATIVE MODELS               (model p(x), not just p(y|x))
+│   ├── VAE                         → encode → latent → decode          [L12]
+│   ├── GANs                        → generator vs discriminator        [L12]
+│   └── Diffusion Models            → denoise step by step              [L11]
+│
+├── REPRESENTATION LEARNING         (learn features without labels)
+│   ├── Self-Supervised Learning    → CLIP, DINO-style contrastive      [L12]
+│   └── Transfer Learning           → pretrain → finetune               [L12]
+│
+├── SEQUENCE + LANGUAGE MODELS
+│   ├── Transformers                → attention, Q/K/V, positional enc  [L14]
+│   └── LLMs                        → next-token prediction at scale    [L13]
+│
+├── REINFORCEMENT LEARNING
+│   ├── MDPs                        → state, action, reward, policy     [L15]
+│   ├── Policy Gradient             → ∇J = E[∇log π · R]               [L15]
+│   └── RLHF                        → bridge to LLMs                   [L01]
+│
+└── THEORY
+    ├── Bias-Variance Tradeoff      → underfitting vs overfitting       [L06]
+    ├── Generalization Bounds       → why it works on new data          [L06]
+    └── Regularization              → L1 (sparse), L2 (small weights)   [L06]
+```
+
+**The connective thread:** MLE sits at the center. The choice of probability distribution for your labels determines the loss function. Gaussian → squared loss. Bernoulli → cross-entropy. Categorical → softmax. Every loss function in the course derives from MLE under a different distribution assumption.
+
+---
+
 ## Course Map
 
 CS229 divides into five blocks:
