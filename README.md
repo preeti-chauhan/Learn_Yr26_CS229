@@ -98,6 +98,8 @@ CS229 divides into five blocks:
 
 ## Lectures
 
+### Block 1 — Supervised Learning
+
 | # | Title | YouTube | Notebook |
 |---|---|---|---|
 | L01 | Introduction | [▶](https://www.youtube.com/watch?v=DATnpGoGhM8) | [notebook](Source-Notebooks/L01-Introduction.ipynb) |
@@ -106,16 +108,41 @@ CS229 divides into five blocks:
 | L04 | Exponential Family, GLMs Classification | [▶](https://www.youtube.com/watch?v=8gVi4Rk21Eg) | [notebook](Source-Notebooks/L04-GLM.ipynb) |
 | L05 | Gaussian Discriminant Analysis | [▶](https://www.youtube.com/watch?v=zRdE8A4UZes) | [notebook](Source-Notebooks/L05-GDA.ipynb) |
 | L06 | Dataset Split, ML Advice | [▶](https://www.youtube.com/watch?v=llnEgyyuYkQ) | [notebook](Source-Notebooks/L06-MLAdvice.ipynb) |
+
+### Block 2 — Neural Networks
+
+| # | Title | YouTube | Notebook |
+|---|---|---|---|
 | L07 | Neural Networks 1 — Architecture | [▶](https://www.youtube.com/watch?v=fRM41w9jzQo) | [notebook](Source-Notebooks/L07-NeuralNetworks-Architecture.ipynb) |
 | L08 | Neural Networks 2 — Backprop | [▶](https://www.youtube.com/watch?v=ne2ngVAoMG8) | [notebook](Source-Notebooks/L08-NeuralNetworks-Backprop.ipynb) |
+
+### Block 3 — Unsupervised Learning
+
+| # | Title | YouTube | Notebook |
+|---|---|---|---|
 | L09 | K-Means and GMM | [▶](https://www.youtube.com/watch?v=bSmIGBCoffA) | [notebook](Source-Notebooks/L09-KMeans-GMM.ipynb) |
 | L10 | GMM (EM), PCA | [▶](https://www.youtube.com/watch?v=sUS-eTa0l6s) | [notebook](Source-Notebooks/L10-EM-PCA.ipynb) |
+
+### Block 4 — Generative + Representation
+
+| # | Title | YouTube | Notebook |
+|---|---|---|---|
 | L11 | Diffusion Models | [▶](https://www.youtube.com/watch?v=dqUMCzWjZSI) | [notebook](Source-Notebooks/L11-DiffusionModels.ipynb) |
 | L12 | Representation Learning | [▶](https://www.youtube.com/watch?v=_kREM2UAiJ8) | [notebook](Source-Notebooks/L12-RepresentationLearning.ipynb) |
+
+### Block 5 — Language + RL
+
+| # | Title | YouTube | Notebook |
+|---|---|---|---|
 | L13 | LLMs, Next-Word Prediction Loss | [▶](https://www.youtube.com/watch?v=lNTajqxxOn4) | [notebook](Source-Notebooks/L13-LLMs.ipynb) |
 | L14 | Transformers, In-Context Learning | [▶](https://www.youtube.com/watch?v=pwQ0l4hFCVI) | [notebook](Source-Notebooks/L14-Transformers.ipynb) |
 | L15 | *(not on YouTube)* | — | — |
 | L16 | Basic Concepts in RL, Policy Gradient | [▶](https://www.youtube.com/watch?v=hHC-SF3utxg) | [notebook](Source-Notebooks/L16-RL.ipynb) |
+
+### Block 6 — EM / PCA Deep Dive
+
+| # | Title | YouTube | Notebook |
+|---|---|---|---|
 | L17 | *(not on YouTube)* | — | — |
 | L18 | GMM (EM), PCA — continued | [▶](https://www.youtube.com/watch?v=xveNBYVTrqw) | — |
 | L19 | *(not on YouTube)* | — | — |
