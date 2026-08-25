@@ -370,3 +370,4 @@ Check off as you complete each topic.
 | [The Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/) | Transformer code walkthrough — L14 companion |
 | [Lilian Weng — Diffusion Models](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/) | Best diffusion model explainer — L11 companion |
 | [Stanford CS229 2018 Lectures (Ng)](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU) | Older version — Andrew Ng's explanations, still excellent for intuition |
+| [Prior CS229 Notes (2024)](https://github.com/preeti-chauhan/Stanford-Artificial-Intelligence-Professional-Program/tree/master/Stanford-CS229-Course) | Previous pass through CS229 — reference for comparison |
