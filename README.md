@@ -20,6 +20,14 @@ The 2026 edition is meaningfully different from older CS229. It has dropped SVMs
 
 ---
 
+## Study Workflow
+
+1. **Watch the lecture** — get the flow and intuition first
+2. **Build the source notebook** — derive every equation from scratch and implement it in code; if you can't code it, you don't understand it
+3. **Write a blog post** — explaining it publicly forces precision
+
+---
+
 ## Concept Map
 
 ```
@@ -134,19 +142,19 @@ CS229 divides into five blocks:
 
 | # | Title | YouTube | Notebook |
 |---|---|---|---|
-| L13 | LLMs, Next-Word Prediction Loss | [▶](https://www.youtube.com/watch?v=lNTajqxxOn4) | [notebook](Source-Notebooks/L13-LLMs.ipynb) |
+| L13 | LLMs, Next-Word Prediction Loss | [▶](https://www.youtube.com/watch?v=lNTajqxxOn4) | [notebook](Source-Notebooks/L13-ContrastiveLearning.ipynb) |
 | L14 | Transformers, In-Context Learning | [▶](https://www.youtube.com/watch?v=pwQ0l4hFCVI) | [notebook](Source-Notebooks/L14-Transformers.ipynb) |
 | L15 | *(not on YouTube)* | — | — |
-| L16 | Basic Concepts in RL, Policy Gradient | [▶](https://www.youtube.com/watch?v=hHC-SF3utxg) | [notebook](Source-Notebooks/L16-RL.ipynb) |
+| L16 | Basic Concepts in RL, Policy Gradient | [▶](https://www.youtube.com/watch?v=hHC-SF3utxg) | [notebook](Source-Notebooks/L16-EfficientTransformers.ipynb) |
 
 ### Block 6 — EM / PCA Deep Dive
 
 | # | Title | YouTube | Notebook |
 |---|---|---|---|
 | L17 | *(not on YouTube)* | — | — |
-| L18 | GMM (EM), PCA — continued | [▶](https://www.youtube.com/watch?v=xveNBYVTrqw) | — |
+| L18 | GMM (EM), PCA — continued | [▶](https://www.youtube.com/watch?v=xveNBYVTrqw) | [notebook](Source-Notebooks/L18-ReinforcementLearning-MDP-PolicyGradient.ipynb) |
 | L19 | *(not on YouTube)* | — | — |
-| L20 | GMM (EM), PCA — continued | [▶](https://www.youtube.com/watch?v=J7CossjMvEg) | — |
+| L20 | GMM (EM), PCA — continued | [▶](https://www.youtube.com/watch?v=J7CossjMvEg) | [notebook](Source-Notebooks/L20-PolicyGradient-PPO-RLforLLMs.ipynb) |
 
 ---
 
@@ -173,9 +181,11 @@ Each notebook is a one-stop learning and teaching guide for that lecture:
 | L10 | GMM (EM), PCA | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/preeti-chauhan/Learn_Yr26_CS229/blob/main/Source-Notebooks/L10-EM-PCA.ipynb) |
 | L11 | Diffusion Models | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/preeti-chauhan/Learn_Yr26_CS229/blob/main/Source-Notebooks/L11-DiffusionModels.ipynb) |
 | L12 | Representation Learning | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/preeti-chauhan/Learn_Yr26_CS229/blob/main/Source-Notebooks/L12-RepresentationLearning.ipynb) |
-| L13 | LLMs, Next-Word Prediction | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/preeti-chauhan/Learn_Yr26_CS229/blob/main/Source-Notebooks/L13-LLMs.ipynb) |
+| L13 | LLMs, Next-Word Prediction | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/preeti-chauhan/Learn_Yr26_CS229/blob/main/Source-Notebooks/L13-ContrastiveLearning.ipynb) |
 | L14 | Transformers, In-Context Learning | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/preeti-chauhan/Learn_Yr26_CS229/blob/main/Source-Notebooks/L14-Transformers.ipynb) |
-| L16 | Basic Concepts in RL, Policy Gradient | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/preeti-chauhan/Learn_Yr26_CS229/blob/main/Source-Notebooks/L16-RL.ipynb) |
+| L16 | Basic Concepts in RL, Policy Gradient | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/preeti-chauhan/Learn_Yr26_CS229/blob/main/Source-Notebooks/L16-EfficientTransformers.ipynb) |
+| L18 | RL, MDP, Policy Gradient | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/preeti-chauhan/Learn_Yr26_CS229/blob/main/Source-Notebooks/L18-ReinforcementLearning-MDP-PolicyGradient.ipynb) |
+| L20 | Policy Gradient, PPO, RL for LLMs | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/preeti-chauhan/Learn_Yr26_CS229/blob/main/Source-Notebooks/L20-PolicyGradient-PPO-RLforLLMs.ipynb) |
 
 ---
 
