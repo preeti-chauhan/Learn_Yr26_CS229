@@ -187,6 +187,7 @@ Each notebook is a one-stop learning and teaching guide for that lecture:
 | L18 | RL, MDP, Policy Gradient | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/preeti-chauhan/Learn_Yr26_CS229/blob/main/Source-Notebooks/L18-ReinforcementLearning-MDP-PolicyGradient.ipynb) |
 | L20 | Policy Gradient, PPO, RL for LLMs | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/preeti-chauhan/Learn_Yr26_CS229/blob/main/Source-Notebooks/L20-PolicyGradient-PPO-RLforLLMs.ipynb) |
 | — | Probability Review | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/preeti-chauhan/Learn_Yr26_CS229/blob/main/Source-Notebooks/Probability-Review.ipynb) |
+| — | PyTorch Foundations | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/preeti-chauhan/Learn_Yr26_CS229/blob/main/Source-Notebooks/PyTorch-Foundations.ipynb) |
 
 ---
 
